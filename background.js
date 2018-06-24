@@ -56,7 +56,7 @@ chrome.commands.onCommand.addListener(function(command) {
          var index = tab.index;
          chrome.tabs.getAllInWindow(null, function(tabs) {
             for (var i = 0; i < index; i++) {
-               if (!chrome.tabs[i].pinned){
+               if (!tabs[i].pinned){
                   chrome.tabs.remove(tabs[i].id);
                }
             }

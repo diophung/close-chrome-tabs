@@ -38,7 +38,7 @@
    "name": "Keyboard shortcuts to close Chrome tabs",
    "short_name": "Shortcuts to close tabs",
    "options_page": "options.html",
-   "permissions": [ "tabs" ],
-   "update_url": "http://clients2.google.com/service/update2/crx",
-   "version": "0.2.0"
+   "permissions": [ ],
+   "update_url": "https://chrome.google.com/webstore/detail/keyboard-shortcuts-to-clo/fipfgiejfpcdacpjepkohdlnjonchnal",
+   "version": "0.3.0"
 }
