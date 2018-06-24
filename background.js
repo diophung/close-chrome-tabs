@@ -1,5 +1,6 @@
 chrome.commands.onCommand.addListener(function(command) {
-   if (command == "close-other-tabs-dp") {
+   // close other tabs, keep pinned ones
+   if (command === "close-other-tabs-dp") {
       chrome.windows.getCurrent(function(currentWindow) {
          chrome.tabs.query({
             active: false,
@@ -13,7 +14,9 @@ chrome.commands.onCommand.addListener(function(command) {
             chrome.tabs.remove(tabIds);
          });
       });
-   } else if (command == "close-right-tabs-dp") {
+   }
+   // right tabs won't contain pinned ones
+   else if (command === "close-right-tabs-dp") {
       chrome.windows.getCurrent(function(currentWindow) {
          chrome.tabs.getSelected(null, function(tab) {
             var index = tab.index;
@@ -21,7 +24,8 @@ chrome.commands.onCommand.addListener(function(command) {
                active: false,
                pinned: false,
                windowId: currentWindow.id
-            }, function(tabs) {
+            }, 
+            function(tabs) {
                var tabIds = new Array(tabs.length);
                var count = 0;
                for (var i = 0; i < tabs.length; i++){
@@ -38,20 +42,25 @@ chrome.commands.onCommand.addListener(function(command) {
             });
          });
       });
-   } else if (command == "toggle-pin-dp") {
+   }    
+   else if (command === "toggle-pin-dp") {
       chrome.tabs.getSelected(null, function(tab) {
          chrome.tabs.update(tab.id, {
             'pinned': !tab.pinned
          });
       });
-   } else if (command == "close-left-tabs-dp") {
+   } 
+   // close tabs to the left, keep pinned ones
+   else if (command === "close-left-tabs-dp") {
       chrome.tabs.getSelected(null, function(tab) {
          var index = tab.index;
          chrome.tabs.getAllInWindow(null, function(tabs) {
             for (var i = 0; i < index; i++) {
-               chrome.tabs.remove(tabs[i].id);
+               if (!chrome.tabs[i].pinned){
+                  chrome.tabs.remove(tabs[i].id);
+               }
             }
          });
-      });     
+      });
    }
 });
