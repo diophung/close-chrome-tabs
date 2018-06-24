@@ -39,6 +39,5 @@
    "short_name": "Shortcuts to close tabs",
    "options_page": "options.html",
    "permissions": [ ],
-   "update_url": "https://chrome.google.com/webstore/detail/keyboard-shortcuts-to-clo/fipfgiejfpcdacpjepkohdlnjonchnal",
    "version": "0.3.0"
 }
