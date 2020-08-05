@@ -11,7 +11,9 @@ https://chrome.google.com/webstore/detail/keyboard-shortcuts-to-clo/fipfgiejfpcd
 
 ## Configuration:
 - Open `chrome://extensions/shortcuts` and look for "Keyboard shortcuts to close Chrome tabs":
+
 ![Step 1](https://github.com/diophung/close-chrome-tabs/blob/master/images/step1.png)
+
 - Enter your configurations.
 
 
