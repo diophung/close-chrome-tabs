@@ -4,8 +4,8 @@ Chrome extension to close tabs to the right/left/other tabs using hotkeys.
 ## Chrome Store installation: 
 https://chrome.google.com/webstore/detail/keyboard-shortcuts-to-clo/fipfgiejfpcdacpjepkohdlnjonchnal
 
-## Local installation:
-- `git clone git@github.com:diophung/close-chrome-tabs.git`
+## Local (offline) installation:
+- Download or copy this repo to your local drive: `git clone git@github.com:diophung/close-chrome-tabs.git`
 - Enter `chrome://extensions` into Chrome address bar
 - Click on "Load unpacked extension" and locate the folder of this repository.
 
