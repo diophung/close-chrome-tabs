@@ -1,5 +1,5 @@
 # Hotkeys for closing Chrome tabs
-Chrome extension to close tabs to the right/left/other tabs using hotkeys.
+Chrome extension to close tabs to the right/left/other tabs, or pin tabs using configurable hotkeys.
 
 ## Chrome Store installation: 
 https://chrome.google.com/webstore/detail/keyboard-shortcuts-to-clo/fipfgiejfpcdacpjepkohdlnjonchnal
