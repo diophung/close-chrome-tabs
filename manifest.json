@@ -2,7 +2,7 @@
    "background": {
     "service_worker": "service_worker.js",
     "type": "module"
-  }
+  },
    "commands": {
       "close-other-tabs-dp": {
          "description": "Close other tabs",
