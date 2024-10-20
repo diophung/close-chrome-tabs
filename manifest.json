@@ -29,7 +29,7 @@
          }
       }
    },
-   "description": "Added the missing hotkeys to control Chrome tabs. Now you can use shortcuts to close left/right/other tabs, mute, and toggle pinned tabs",
+   "description": "Add hotkeys to 1)close tabs to the left, 2)close tabs to the right, 3)close other tabs, 4)toggle tab pinning",
    "icons": {
       "128": "images/tabs_128.png",
       "48": "images/tabs_48.png"
