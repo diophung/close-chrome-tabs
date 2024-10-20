@@ -7,36 +7,36 @@
       "close-other-tabs-dp": {
          "description": "Close other tabs",
          "suggested_key": {
-            "default": "Alt+Shift+W"
+            "default": "Alt+O"
          }
       },
       "close-left-tabs-dp": {
          "description": "Close tabs to the left",
          "suggested_key": {
-            "default": "Alt+Shift+L"
+            "default": "Alt+L"
          }
       },
       "close-right-tabs-dp": {
          "description": "Close tabs to the right",
          "suggested_key": {
-            "default": "Alt+Shift+R"
+            "default": "Alt+R"
          }
       },
       "toggle-pin-dp": {
          "description": "Pin/unpin Tab",
          "suggested_key": {
-            "default": "Alt+Shift+P"
+            "default": "Alt+P"
          }
       }
    },
-   "description": "Added the missing hotkeys to control Chrome tabs. Now you can use shortcuts to close left/right/other tabs or toggle pinned ones",
+   "description": "Added the missing hotkeys to control Chrome tabs. Now you can use shortcuts to close left/right/other tabs, mute, and toggle pinned tabs",
    "icons": {
       "128": "images/tabs_128.png",
       "48": "images/tabs_48.png"
    },
    "manifest_version": 3,
-   "name": "Keyboard shortcuts to close Chrome tabs",
-   "short_name": "Shortcuts to close tabs",
+   "name": "Keyboard shortcuts to manage Chrome tabs",
+   "short_name": "Shortcuts to manage tabs",
    "options_page": "options.html",
    "permissions": [ ],
    "version": "0.3.1"
