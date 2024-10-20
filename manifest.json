@@ -39,5 +39,5 @@
    "short_name": "Shortcuts to manage tabs",
    "options_page": "options.html",
    "permissions": [ ],
-   "version": "0.3.1"
+   "version": "0.3.2"
 }
